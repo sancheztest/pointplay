@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="info" class="info-container">
+        <h2 class="info-item">Points: <span id="points"></span></h2>
+        <h2 class="info-item">Coupons: <span id="coupons"></span></h2>
+    </div>
+
+    <div id="buy-coupons">
+        <h2>Buy Coupons</h2>
+        <div id="card-container">
+
+            <!-- <div class="card">
+                <h3>Package 1</h3>
+                <p>Price: 20</p>
+                <p>Amount: 5</p>
+                <button data-name="Package 1" data-description="Buy Coupons Package 1" data-amount="1000" class="buy-button">Buy</button>
+            </div>
+
+            <div class="card">
+                <h3>Package 2</h3>
+                <p>Price: 30</p>
+                <p>Amount: 10</p>
+                <button data-name="Package 2" data-description="Buy Coupons Package 2" data-amount="3000" class="buy-button">Buy</button>
+            </div>
+
+            <div class="card">
+                <h3>Package 3</h3>
+                <p>Price: 100</p>
+                <p>Amount: 25</p>
+                <button data-name="Package 3" data-description="Buy Coupons Package 3" data-amount="10000" class="buy-button">Buy</button>
+            </div> -->
+
+        </div>
+    </div>
+
+    <div id="spend-coupon">
+
+        <div class="container">
+            <h2>Spend Coupon</h2>
+            <p id="option-text"><span id="op"></span> <span id="value"></span> <span id="type"></span></p>
+            <button id="spin-button">Spend</button>
+        </div>
+
+
+    </div>
+
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
